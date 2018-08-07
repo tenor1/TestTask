@@ -1,0 +1,35 @@
+{
+  "name": "testtask",
+  "version": "0.0.1",
+  "description": "Тестовый интернет-магазин",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenor1/TestTask.git"
+  },
+  "keywords": [
+    "Тест",
+    "BEM",
+    "CSS",
+    "HTML",
+    "fonts"
+  ],
+  "author": "Yurij Borsch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenor1/TestTask/issues"
+  },
+  "homepage": "https://github.com/tenor1/TestTask#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "pug": "^2.0.3"
+  }
+}
