@@ -34,3 +34,8 @@ gulp.task('precss', function(){
 			{cascade: true }))
 		.pipe(gulp.dest('dist/css'))
 });
+
+gulp.task('img', function(){
+	return gulp.src('app/img/**/*.*')
+		.pipe(gulp.dest('dist/img'))
+});
