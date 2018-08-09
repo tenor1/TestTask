@@ -1,0 +1,20 @@
+/* adaptive css styles  */
+@media screen and (max-width: 849px) {
+  main {width: 90vw;}
+	
+	.float-cont2::after {content:''; clear:both; display: block;}
+	
+	.float-cont2 > *:first-child,
+	.float-cont2 > *:last-child {
+		float: none; width: 100%; }
+	.float-cont2 .image {text-align: center;}
+	.icons figure img {float: none;}
+	
+	figure {text-align: center; display: inline-block; width: 24%}
+	figcaption {width: 100%; padding-left: 0;}
+}
+
+@media screen and (max-width: 480px) {
+  figure {width: 50%; margin-bottom: 1.5em;}
+	.advertisting .image img {width: 100%;}
+}

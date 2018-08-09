@@ -4,7 +4,11 @@
   "description": "Тестовый интернет-магазин",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "gulp folders",
+    "build": "gulp code",
+    "postbuild": "gulp default",
+    "code": "gulp code"
   },
   "repository": {
     "type": "git",
@@ -24,10 +28,14 @@
   },
   "homepage": "https://github.com/tenor1/TestTask#readme",
   "devDependencies": {
+    "browser-sync": "^2.24.6",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^5.0.0",
+    "gulp-changed": "^3.2.0",
     "gulp-concat": "^2.6.1",
     "gulp-debug": "^4.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-npm-script-sync": "^1.1.0",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.1",
     "pug": "^2.0.3"

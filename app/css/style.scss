@@ -1,0 +1,89 @@
+$back-color : #FFFFFF;
+$advert-back-color: #f0f0f0;
+$p-color: #8d8d8d;
+$but-red-color1: #da4137;
+$but-red-color2: #b4362d;
+$but-text-color: #FFFFFF;
+$base-font-family: "Times New Roman", Serif; 
+$base-font-size: 14.5px;
+
+header, section, article, ul {display: block; margin: 0; padding: 0};
+
+body {
+	font-family: Tahoma, Sans-serif; 
+	line-height: 1.4}
+
+p, figcaption {
+	font-size: $base-font-size;
+	font-family: $base-font-family;}
+
+main { 
+	display: block;
+	width: 850px; 
+	margin: auto; 
+	padding-top: 0.7em;
+  padding-bottom: 0.2em;}
+
+.logo {float:left;}	
+nav {float: right;}
+
+.menu {
+	display: block;
+	li {
+		display: inline-block;
+		font-size: 1.2em;
+		padding-left: 1.2em;
+		a {
+			text-decoration: none;
+			font-weight: 800;
+			color: #000;
+			font-size: 16px;
+		}
+		a:active {
+			color: #333;
+		}
+	}
+}
+
+.advertisting {
+	padding: 15px 25px 12px 25px;
+	margin-bottom: 1.3em;
+	background-color: $advert-back-color;
+	vertical-align: top;
+	::after {content: ''; display: block; clear: both;}
+	h2 {font-size: 21px; margin-top: 0; margin-bottom: 0;}
+	.image {width: 49%;}
+}
+.proposition {width: 49%;}
+.but {
+	display: inline-block;
+	padding: 5px 23px;
+	text-decoration: none;
+	color: $but-text-color;
+	font-size: 13px;
+	background: linear-gradient(to bottom, #da4137, #b4362d)
+}
+
+.articles h2 {font-size: 18px; margin-bottom: 0;}
+
+p {
+	color: $p-color;
+	margin-top: 0.5em;
+  margin-bottom: 0.9em;}
+
+.float-cont2::after {content:''; clear:both; display: block;}
+.float-cont2 > *:first-child, .fl-left {float: left; display: inline-block;}
+.float-cont2 > *:last-child {float: right; display: inline-block;}
+.float-cont::after {content:''; clear:both; display: block;}
+.float-cont > * {float: left; }
+
+.icons {padding-bottom: 1em;}
+figure {width: 25%; margin: 0}
+figcaption {
+	width: 10em;
+	font-style: italic;
+	padding-left: 1em;
+	padding-top: 0.1em;}
+
+
+
